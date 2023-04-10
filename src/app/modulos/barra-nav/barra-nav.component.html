@@ -1,0 +1,14 @@
+<nav class="barraNav">
+    <div class="logo">
+        <a routerLink="/" (click)="scrollToElement('inicio')" class="inicio"><img src="{{img}}" alt="logo-pagina"></a>
+    </div>
+    <div class="opciones">
+        <nav>
+            <ul>
+                <li><a (click)="navegar()" class="canchas">Canchas</a></li>
+                <li><a (click)="scrollToElement('nosotros')" class="nosotros">nosotros</a></li>
+                <li><a  class="contactenos">Contactenos</a></li>
+            </ul>
+        </nav>
+    </div>
+  </nav>
