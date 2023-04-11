@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class CanchasComponent {
 
-  img = './assets/images/logo.png';
+  cancha = './assets/images/Soccer_field_icon.png';
 
-  Soccer_field = './assets/images/Soccer_field_icon.png';
+  comentarios = {mbappe: "buenas canchas", cristiano: "agusto con el servicio", messi: "ojala hubiera mejor ilumniacion en las pequeñas"};
 
   addCourt(): void {
     console.log('Agregar cancha');

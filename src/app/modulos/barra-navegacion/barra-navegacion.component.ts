@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class BarraNavegacionComponent {
 
+  ngOnInit(): void {
+  }
+
+  img = 'src/assets/logos/logo-pagina.png';
+
+
 }

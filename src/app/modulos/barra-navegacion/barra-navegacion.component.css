@@ -1,0 +1,19 @@
+.barra-navegacion {
+    background-color: black; /* Fondo blanco */
+    display: flex; /* Usamos Flexbox para alinear los elementos */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: space-between; /* Separa los elementos equitativamente */
+     padding: 10px; /* Agrega un pequeño margen interior */
+
+  }
+  
+
+
+    .logo img{
+        width: 60px;
+    }
+
+
+    a:link, a:visited, a:active {
+        text-decoration: none;
+    }
