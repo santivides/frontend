@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class CanchasComponent {
 
   cancha = './assets/images/Soccer_field_icon.png';
+  cancha1 = '';
+  cancha2 = '';
 
   comentarios = {mbappe: "buenas canchas", cristiano: "agusto con el servicio", messi: "ojala hubiera mejor ilumniacion en las pequeñas"};
 

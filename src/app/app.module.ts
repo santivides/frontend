@@ -9,6 +9,9 @@ import { ContactenosComponent } from './modulos/contactenos/contactenos.componen
 import { InicioComponent } from './modulos/inicio/inicio.component';
 import { RegistroComponent } from './modulos/registro/registro.component';
 import { ReactiveFormsModule , FormsModule, NgForm} from '@angular/forms';
+import { EditarCanchaComponent } from './modulos/editar-cancha/editar-cancha.component';
+import { LoginComponent } from './modulos/login/login.component';
+import { ReservasComponent } from './modulos/reservas/reservas.component';
 
 
 @NgModule({
@@ -18,14 +21,16 @@ import { ReactiveFormsModule , FormsModule, NgForm} from '@angular/forms';
     CanchasComponent,
     ContactenosComponent,
     InicioComponent,
-    RegistroComponent
+    RegistroComponent,
+    EditarCanchaComponent,
+    LoginComponent,
+    ReservasComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
-    NgForm
   ],
   providers: [],
   bootstrap: [AppComponent]
