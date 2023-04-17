@@ -8,6 +8,8 @@ import { CanchasComponent } from './modulos/canchas/canchas.component';
 import { ContactenosComponent } from './modulos/contactenos/contactenos.component';
 import { InicioComponent } from './modulos/inicio/inicio.component';
 import { RegistroComponent } from './modulos/registro/registro.component';
+import { ReactiveFormsModule , FormsModule, NgForm} from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,10 @@ import { RegistroComponent } from './modulos/registro/registro.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
+    NgForm
   ],
   providers: [],
   bootstrap: [AppComponent]

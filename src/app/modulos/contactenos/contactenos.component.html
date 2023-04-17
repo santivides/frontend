@@ -1,1 +1,23 @@
-<p>contactenos works!</p>
+
+<main>
+    
+    <h1>Formulario de contacto</h1>
+    <p>envianos tu comentario y tu correo para estar al corriente con lo que dices</p>
+
+    <form class="formulario" (ngSubmit)="mostrarInfo(comentario)" #comentario="ngForm">
+        <div class="email">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="correo" [ngModel]>
+            </div>
+
+            <div class="comentario">
+                <label for="exampleFormControlTextarea1" class="form-label">comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comentario"></textarea>
+            </div>
+
+            <input type="submit" value="enviar" onclick="guardarInfo()" class="btnEnviar">
+    </form>
+
+    
+
+</main>

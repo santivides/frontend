@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { ReactiveFormsModule } from '@angular/forms';
+
 import { ContactenosComponent } from './contactenos.component';
 
 describe('ContactenosComponent', () => {
