@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class CanchasComponent {
 
   cancha = './assets/images/Soccer_field_icon.png';
-  cancha1 = '';
-  cancha2 = '';
+  cancha1 = '../images/elCampin.jpeg';
+  cancha2 = '../images/blink.jpg';
+  cancha3 = '../images/radioUno.jpg'
 
-  comentarios = {mbappe: "buenas canchas", cristiano: "agusto con el servicio", messi: "ojala hubiera mejor ilumniacion en las pequeñas"};
 
   addCourt(): void {
     console.log('Agregar cancha');
@@ -23,5 +23,26 @@ export class CanchasComponent {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   }
+
+  canchas= [
+    {
+      price: 20000,
+      descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis!',
+      nombre: 'Cancha 1',
+      imagen: this.cancha1
+    },
+    {
+      nombre: 'Cancha 2',
+      price: 50000,
+      descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis!',
+      imagen: this.cancha2
+    },
+    {
+      nombre: 'Cancha 3',
+      price: 35000,
+      descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, facilis!',
+      imagen: this.cancha3
+    }
+  ]
 
 }

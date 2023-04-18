@@ -1,0 +1,24 @@
+.svg{
+    align-items: center;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .presentacion1, .presentacion2{
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 400px;
+    padding-left: 10px;
+    border: 1px solid black;
+  }
+  .presentaciones{
+    align-items: center;
+    margin: auto;
+  }
+  

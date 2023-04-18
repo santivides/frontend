@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.Registrarse{
+    background: #1b4e36;
+	display: flex;
+	justify-content: center; /*verticalmente*/
+	align-items: center; /*horizontalmente*/
+	flex-direction: column;
+	font-family: sans-serif;
+	height: 50vh;
+}
+
+h1{
+    font-weight: bold;
+    margin: 0;
+}
+
+a{
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button{
+	border-radius: 20px;
+	border: 1px solid #1a781a;
+	background-color: #1a781a;
+	color: white;
+	font-size: 20px;
+	padding: 12px 40px;
+    margin: 10px;
+}
+
+form{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 50px 50px;
+    border-radius: 5%;
+	height: 500px;
+	text-align: center;
+}
+
+input{
+    background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}

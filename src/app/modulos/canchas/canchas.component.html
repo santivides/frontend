@@ -6,19 +6,12 @@
         <h1 class="Titulo">Canchas</h1>
       </div>
       <div class="canchas">
-        <img src="{{cancha1}}" alt="imagen de la cancha">
-        <p>Luz del mar</p>
-        <p>Establecimiento : El coliseo</p>
-        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar</button>
-        <button class="btn btn-danger">Eliminar</button>
-      </div>
-
-      <div class="canchas">
-        <img src="{{cancha2}}" alt="imagen de la cancha">
-        <p>El campin</p>
-        <p>Establecimiento : manchester</p>
-        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar</button>
-        <button class="btn btn-danger">Eliminar</button>
+        <div *ngFor="let cancha of canchas" class="card__info box__card-primary">
+          <img [src]="cancha.imagen" alt="imagen">
+          <h1>{{cancha.nombre}}</h1>
+          <h2>{{cancha.price}}</h2>
+          <p>{{cancha.descripcion}}</p>
+        </div>
       </div>
 
     </div>

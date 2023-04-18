@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent {
-  Soccer_field = './assets/images/Soccer_field_icon.png';
+  campo = './assets/images/Soccer_field_icon.png';
   logo = './images/logo.png';
 }
