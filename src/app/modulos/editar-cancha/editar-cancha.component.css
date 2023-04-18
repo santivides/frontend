@@ -1,0 +1,24 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #220e0e;
+  padding: 20px;
+ 
+}
+h2{
+  color: transparent
+}
+
+.card {
+  margin-top: 20px;
+}
+
+select {
+  height: 150px;
+}
+.editar-cancha-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}

@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent {
-  campo = './assets/images/Soccer_field_icon.png';
-  logo = './images/logo.png';
+  campo = '../images/blink.jpg';
+  logo = '../images/logo.png';
+  DB = '../images/DBmodel.jpg';
 }

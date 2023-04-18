@@ -6,8 +6,8 @@
 .Registrarse{
     background: #1b4e36;
 	display: flex;
-	justify-content: center; /*verticalmente*/
-	align-items: center; /*horizontalmente*/
+	justify-content: center; 
+	align-items: center; 
 	flex-direction: column;
 	font-family: sans-serif;
 	height: 50vh;
@@ -16,6 +16,10 @@
 h1{
     font-weight: bold;
     margin: 0;
+}
+
+h2{
+color:transparent
 }
 
 a{
@@ -27,8 +31,8 @@ a{
 
 button{
 	border-radius: 20px;
-	border: 1px solid #1a781a;
-	background-color: #1a781a;
+	border: 1px solid cyan;
+	background-color: cyan;
 	color: white;
 	font-size: 20px;
 	padding: 12px 40px;

@@ -1,28 +1,39 @@
-<button class="btn btn-success">Nueva Cancha</button>
-<main>
-  <div class="inicio">
-    <div class="info-pagina">
-      <div class="info">
-        <h1 class="Titulo">Canchas</h1>
-      </div>
-      <div class="canchas">
-        <div *ngFor="let cancha of canchas" class="card__info box__card-primary">
-          <img [src]="cancha.imagen" alt="imagen">
-          <h1>{{cancha.nombre}}</h1>
-          <h2>{{cancha.price}}</h2>
-          <p>{{cancha.descripcion}}</p>
-        </div>
-      </div>
+<h2 class="Titulo">Lista de Canchas</h2>
 
-    </div>
-  </div>
-  <div>
-    <div class="Seccion-comentarios">
-      <h2>Comentarios</h2>
-      <form>
-        <textarea placeholder="dinos lo que piensas"></textarea>
-        <button>Publicar</button>
-      </form>
-      </div>
-  </div>
-</main>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nombre de la Cancha</th>
+      <th>Establecimientos</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cancha 1</td>
+      <td>
+        <ul>
+          <li>Establecimiento : Estadio Metropolitano</li>
+        </ul>
+      </td>
+      <td>
+        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar</button>
+        <button class="btn btn-danger">Eliminar</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Cancha 2</td>
+      <td>
+        <ul>
+          <li>Establecimiento: San Siro</li>
+         </ul>
+      </td>
+      <td>
+        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar</button>
+        <button class="btn btn-danger">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="btn btn-success">Nueva Cancha</button>

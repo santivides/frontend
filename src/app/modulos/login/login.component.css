@@ -5,8 +5,8 @@
 .login{
     background: #1b4e36;
 	display: flex;
-	justify-content: center; /*verticalmente*/
-	align-items: center; /*horizontalmente*/
+	justify-content: center; 
+	align-items: center; 
 	flex-direction: column;
 	font-family: sans-serif;
 	height: 200vh;
@@ -17,12 +17,17 @@
 h1{
     font-weight: bold;
     margin: 0;
+	text-align: center;
 }
+h2{
+	color:transparent
+}
+
 
 p{
     font-size: 14px;
     font-weight: 100;
-    line-height: 20px; /*Espacio vertical entre lineas*/
+    line-height: 20px; 
     letter-spacing: 0.5px;
     margin: 20px 0;
 }
@@ -36,8 +41,8 @@ a{
 
 button{
 	border-radius: 20px;
-	border: 1px solid #1a781a;
-	background-color: #1a781a;
+	border: 1px solid cyan;
+	background-color: cyan;
 	color: #FFFFFF;
 	font-size: 20px;
 	padding: 12px 40px;

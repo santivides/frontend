@@ -1,17 +1,28 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-registro',
   templateUrl: './registro.component.html',
   styleUrls: ['./registro.component.css']
 })
-export class RegistroComponent {
+export class RegistroComponent implements OnInit{
 
-  constructor(private router: Router) { }
+  nuevoUsuario= {
 
-  navegar() {
-    this.router.navigate(['/home']);
+    nombre: "",
+    edad: "",
+    correo: "",
+    contrasena: ""
+
   }
   
+  constructor(){}
+
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+
+  SaveData(value: any){
+    this.nuevoUsuario = value;
+  }
 }

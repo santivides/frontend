@@ -1,26 +1,22 @@
-<p>editar-cancha works!</p>
-<p>editar-cancha works!</p>
-<div class="container">
-    <h1>Editar Cancha</h1>
+
+    <h2>Editar Cancha</h2>
     <div class="card">
-        <form>
-          <div class="EditNombre">
+      <div class="card-body">
+        <form (ngSubmit) = "SaveData(info)" #info="ngForm">
+          <div class="form-group" >
             <label for="nombreCancha">Nombre de la Cancha:</label>
-            <input type="text" class="name" id="nombreCancha" placeholder="Ingrese el nombre de la cancha">
+            <input type="text" class="form-control" id="nombreCancha" placeholder="Ingrese el nombre de la cancha" [(ngModel)]="canchaN.nombre" required>
           </div>
-          <div class="EditEst">
+          <div class="form-group">
             <label for="establecimientos">Establecimientos:</label>
-            <select class="form-control" id="establecimientos">
+            <select multiple class="form-control" id="establecimientos" [(ngModel)]="canchaN.establecimiento" required>
               <option>Establecimiento 1</option>
               <option>Establecimiento 2</option>
               <option>Establecimiento 3</option>
             </select>
           </div>
-          <div class="EditPrecio">
-            <label for="precioCancha">precio de la Cancha:</label>
-            <input type="number" class="price" id="precioCancha" placeholder="Ingrese el nombre de la cancha">
-          </div>
-          <button type="submit" class="btnActualizar">Actualizar</button>
+          <button type="submit" class="btn btn-primary" ngModel required>Actualizar</button>
         </form>
       </div>
-  </div>
+    </div>
+  

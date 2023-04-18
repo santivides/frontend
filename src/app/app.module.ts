@@ -9,9 +9,10 @@ import { ContactenosComponent } from './modulos/contactenos/contactenos.componen
 import { InicioComponent } from './modulos/inicio/inicio.component';
 import { RegistroComponent } from './modulos/registro/registro.component';
 import { ReactiveFormsModule , FormsModule, NgForm} from '@angular/forms';
+import { EditarCanchaComponent } from './modulos/editar-cancha/editar-cancha.component';
 import { LoginComponent } from './modulos/login/login.component';
 import { ReservasComponent } from './modulos/reservas/reservas.component';
-import { EditarCanchaComponent } from './modulos/editar-cancha/editar-cancha.component';
+import { EstablecimientosComponent } from './modulos/establecimientos/establecimientos.component';
 
 
 @NgModule({
@@ -22,9 +23,10 @@ import { EditarCanchaComponent } from './modulos/editar-cancha/editar-cancha.com
     ContactenosComponent,
     InicioComponent,
     RegistroComponent,
-   EditarCanchaComponent,
+    EditarCanchaComponent,
     LoginComponent,
-    ReservasComponent
+    ReservasComponent,
+    EstablecimientosComponent,
   ],
   imports: [
     BrowserModule,

@@ -10,7 +10,7 @@ export class BarraNavegacionComponent {
   ngOnInit(): void {
   }
 
-  logo = 'src/assets/logos/logo-pagina.png';
+  img = 'src/assets/logos/logo-pagina.png';
 
 
 }
