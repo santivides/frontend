@@ -1,24 +1,52 @@
-<header>
+<!-- <header>
     <div class="logo">
-      <h1>Canchas - Travis Barker</h1>
+      <a routerLink=""><img src={{logo}} alt="logo de la pagina"></a>
     </div>
     <nav>
-      <ul>
-
-        <li>
-          <a routerLink="">inicio</a>
-        
-          <li><a routerLink="/login">Iniciar Sesión</a> </li>
-        <li><a routerLink="/registro">Registrarse</a>
-        </li>
+      <h1 class="title">Canchas - Travis Barker</h1>
+      
+      <ul>  
+        <li><a routerLink="">inicio</a></li>
+        <li><a routerLink="/login">Iniciar Sesión</a> </li>
+        <li><a routerLink="/registro">Registrarse</a></li>
         <li><a routerLink="/establecimientos">Establecimientos</a></li>
         <li><a routerLink="/canchas">Canchas disponibles</a></li>
         <li><a routerLink="/editar-cancha">editar-cancha</a></li>
-        <li><a routerLink="/reservas">Reservar Cancha</a>
-        </li>
+        <li><a routerLink="/reservas">Reservar Cancha</a></li>
         <li><a routerLink="/contactenos">contactenos</a></li>
         
       </ul>
     </nav>
 
-  </header>
+  </header> -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" routerLink=""><img src={{logo}} alt="logo de la pagina"></a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a routerLink="">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/login">Iniciar Sesión</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/registro">Registrarse</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/establecimientos">Establecimientos</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/canchas">Canchas disponibles</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/editar-cancha">editar-cancha</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/contactenos">contactenos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

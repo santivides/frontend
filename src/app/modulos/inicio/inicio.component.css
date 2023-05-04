@@ -1,3 +1,15 @@
+body{
+  background-color: #BDECB6;
+  margin: 10px;
+}
+
+.inicio{
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px 200px;
+  background-color: white;
+}
+
 h1 {
   font-size: 48px;
   text-align: center;
@@ -10,4 +22,43 @@ p {
   margin: 30px 0;
   padding: 0 50px;
   text-align: justify;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 30px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button{
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #BDECB6;
+  border: 2px solid black;
+  font-size: 16px;
+  padding: 15px 32px;
 }
