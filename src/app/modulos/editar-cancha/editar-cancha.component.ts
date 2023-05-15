@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-editar-cancha',
@@ -13,7 +14,11 @@ export class EditarCanchaComponent implements OnInit{
   }
   
 
-  constructor(){}
+  constructor(private router: Router){}
+
+  goToPage(pageName: string):void{
+    this.router.navigate([`${pageName}`]);
+  } 
 
   ngOnInit(): void {
     throw new Error('Method not implemented.');

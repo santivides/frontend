@@ -1,7 +1,14 @@
+/* body{
+  background-color: #BDECB6;
+  margin: 10px;
+  position: static;
+} */
+
 table {
   margin: 0 auto;
   max-width: 800px;
   padding-top: 100px;
+  background-color: white;
 }
 
 th, td {
@@ -16,19 +23,27 @@ th {
 
 button {
   padding: 5px 10px;
-  background-color:cyan;
+  background-color:#BDECB6;
   color: white;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+
 }
+
+.btnEditar{
+  margin-left: 283px;
+  margin-top: 1%;
+}
+
 .nuevo-establecimiento-btn {
   width: 80%;
   margin-left:45%;
 }
 
 button:hover {
-  background-color:cyan;
+  background-color:green;
 }
 
 button + button {
@@ -36,7 +51,8 @@ button + button {
 }
 
 .Titulo{
-  margin-left:45%;
+  margin-left:40%;
   max-width: 800px;
   padding-top: 50px;
+
 }

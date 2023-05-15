@@ -1,6 +1,7 @@
 body{
   background-color: #BDECB6;
   margin: 10px;
+  position: static;
 }
 
 .inicio{
@@ -35,21 +36,6 @@ h1 {
   margin-top: 50px;
 }
 
-ul {
-  list-style: none;
-  margin-top: 30px;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
 a:hover {
   text-decoration: underline;
 }
@@ -58,7 +44,11 @@ button{
   margin: 20px;
   border-radius: 5px;
   background-color: #BDECB6;
-  border: 2px solid black;
-  font-size: 16px;
+  font-size: 20px;
   padding: 15px 32px;
+  border: none;
+}
+
+button:hover{
+  background-color:  green;
 }

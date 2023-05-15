@@ -5,17 +5,17 @@
         <form (ngSubmit) = "SaveData(info)" #info="ngForm">
           <div class="form-group" >
             <label for="nombreCancha">Nombre de la Cancha:</label>
-            <input type="text" class="form-control" id="nombreCancha" placeholder="Ingrese el nombre de la cancha" [(ngModel)]="canchaN.nombre" required>
+            <input type="text" class="form-control" id="nombreCancha" placeholder="Ingrese el nombre de la cancha" [(ngModel)]="canchaN.nombre" name="nombre" required>
           </div>
           <div class="form-group">
             <label for="establecimientos">Establecimientos:</label>
-            <select multiple class="form-control" id="establecimientos" [(ngModel)]="canchaN.establecimiento" required>
+            <select multiple class="form-control" id="establecimientos" [(ngModel)]="canchaN.establecimiento" name="establecimiento" required>
               <option>Establecimiento 1</option>
               <option>Establecimiento 2</option>
               <option>Establecimiento 3</option>
             </select>
           </div>
-          <button type="submit" class="btn btn-primary" ngModel required>Actualizar</button>
+          <button type="submit" class="btn btn-primary" ngModel name="enviar" (click)="goToPage('canchas')" required>Actualizar</button>
         </form>
       </div>
     </div>

@@ -3,6 +3,8 @@ table {
     max-width: 800px;
     padding-top: 100px;
   }
+
+  
   
   th, td {
     padding: 10px;
@@ -16,18 +18,21 @@ table {
   
   button {
     padding: 5px 10px;
-    background-color: cyan;
+    background-color:#BDECB6;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+  
   }
   .nuevo-establecimiento-btn {
-    width: 80%;
+    width: 500px;
+    margin:20px 32%;
   }
 
   button:hover {
-    background-color: cyan;
+    background-color:green;
   }
   
   button + button {

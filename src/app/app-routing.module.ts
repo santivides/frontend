@@ -12,6 +12,7 @@ import { EstablecimientosComponent } from './modulos/establecimientos/establecim
 
 const routes: Routes = [
   {path : "", component: InicioComponent},
+  {path : "inicio", component: InicioComponent},
   {path : "canchas", component: CanchasComponent},
   {path : "contactenos", component: ContactenosComponent},
   {path : "editar-cancha", component: EditarCanchaComponent},

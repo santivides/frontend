@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-canchas',
@@ -11,6 +12,8 @@ export class CanchasComponent {
   cancha1 = '../images/radiouno.jpg';
   cancha2 = '../images/elCampin.jpeg';
 
+  constructor(private router: Router){}
+
   addCourt(): void {
     console.log('Agregar cancha');
   }
@@ -21,5 +24,9 @@ export class CanchasComponent {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   }
+
+  goToPage(pageName: string):void{
+    this.router.navigate([`${pageName}`]);
+  }  
 
 }

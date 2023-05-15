@@ -1,26 +1,27 @@
-*{
-	box-sizing: border-box;
-}
+body{
+	background-color: #BDECB6;
+	margin: 10px;
+	position: static;
+  }
 
-.login{
-    background: #1b4e36;
-	display: flex;
-	justify-content: center; 
-	align-items: center; 
-	flex-direction: column;
-	font-family: sans-serif;
-	height: 200vh;
-	background-size: cover;
-	background-position: center;
-}
+  .container{
+	border: 5px solid black;
+	background-color: #FFFFFF;
+	border-radius: 15px;
+  }
 
 h1{
     font-weight: bold;
     margin: 0;
 	text-align: center;
 }
+
 h2{
-	color:transparent
+    font-weight: bold;
+    margin: 0;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 5%;
 }
 
 
@@ -40,13 +41,13 @@ a{
 }
 
 button{
-	border-radius: 20px;
-	border: 1px solid cyan;
-	background-color: cyan;
+	border-radius: 10px;
+	border: 1px solid #4DD547;
+	background-color: #4DD547;
 	color: #FFFFFF;
 	font-size: 20px;
 	padding: 12px 40px;
-    margin: 10px;
+    margin: 15px;
 }
 
 form{
@@ -61,10 +62,18 @@ form{
 	text-align: center;
 }
 
+.form-group{
+	margin: 35px;
+}
+
 input{
     background-color: #eee;
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
 	width: 100%;
+}
+
+.btns{
+	display: block;
 }

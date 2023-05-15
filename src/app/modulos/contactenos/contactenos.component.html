@@ -1,9 +1,10 @@
 
-<main>
+<body>
 
+  <h2>¿Quiénes somos?</h2>
+  <p>Somos una empresa dedicada a la renta de canchas de futbol</p>
     <div class="presentacion">
-        <h2>¿Quiénes somos?</h2>
-        <p>Somos una empresa dedicada a la renta de canchas de futbol</p>
+
       
         <div class="presentacion1">
           <h1>Santiago Vides Salcedo</h1>
@@ -16,6 +17,8 @@
             <li>JavaScript</li>
             <li>HTML y CSS</li>
           </ul>
+
+          <p>numero de contacto: 3160000000</p>
         </div>
       
         <div class="presentacion2">
@@ -27,13 +30,16 @@
             <li>C++</li>
             <li>Java</li>
           </ul>
+          <p>numero de contacto: 1234567</p>
         </div>
     </div>
     
+
     <h1>Formulario de contacto</h1>
     <p>envianos tu comentario y tu correo para estar al corriente con lo que dices</p>
 
-    <form class="formulario" (ngSubmit)="mostrarInfo(comentario)" #comentario="ngForm">
+    <div class="formulario">
+      <form  (ngSubmit)="mostrarInfo(comentario)" #comentario="ngForm">
         <div class="email">
                 <label for="exampleFormControlInput1" class="form-label">Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="correo" [ngModel]>
@@ -45,8 +51,10 @@
             </div>
 
             <input type="submit" value="enviar" onclick="guardarInfo()" class="btnEnviar">
-    </form>
+      </form>
+    </div>
+    
 
     
 
-</main>
+</body>

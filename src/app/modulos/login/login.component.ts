@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -12,7 +13,11 @@ export class LoginComponent implements OnInit{
     contrasena: ""
   }
   
-  constructor(){}
+  constructor(private router: Router){}
+
+  goToPage(pageName: string):void{
+    this.router.navigate([`${pageName}`]);
+  } 
 
   ngOnInit(): void {
     throw new Error('Method not implemented.');
